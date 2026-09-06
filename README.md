@@ -19,7 +19,7 @@ planned as a third plugin.
 ```
 
 then follow each plugin's own README (`/pins:pins-install` for `pins`,
-`/budget-statusline-install` for `budget-statusline`). Updates:
+`/budget-statusline:budget-statusline-install` for `budget-statusline`). Updates:
 `/plugin update <plugin>`, or turn on auto-update for this marketplace in `/plugin`.
 
 This marketplace was called `claude-statuslines` until September 2026. If you added it
