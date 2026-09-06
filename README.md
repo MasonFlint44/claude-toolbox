@@ -1,24 +1,30 @@
-# claude-statuslines
+# claude-toolbox
 
-A Claude Code plugin marketplace for statuslines. One so far:
+A Claude Code plugin marketplace for Mason Flint's plugins. Two so far:
 
-| Plugin | For | Repo |
+| Plugin | What | Repo |
 |---|---|---|
-| `budget-statusline` | organization and Team plans with spend billing: daily and monthly budget bars from the `/usage` numbers, plus a work-week and holiday calendar | [claude-budget-statusline](https://github.com/MasonFlint44/claude-budget-statusline) |
+| `pins` | pin sessions and resume them by name: a `pin` terminal picker (fzf) plus `/pins:pin` and `/pins:unpin` | [claude-pins](https://github.com/MasonFlint44/claude-pins) |
+| `budget-statusline` | for organization and Team plans with spend billing: daily and monthly budget bars from the `/usage` numbers, plus a work-week and holiday calendar | [claude-budget-statusline](https://github.com/MasonFlint44/claude-budget-statusline) |
 
 A plan-user statusline (5-hour and weekly windows rather than dollars) is
-planned as a second plugin.
+planned as a third plugin.
 
 ## Install
 
 ```
-/plugin marketplace add MasonFlint44/claude-statuslines
-/plugin install budget-statusline@claude-statuslines
+/plugin marketplace add MasonFlint44/claude-toolbox
+/plugin install pins@claude-toolbox
+/plugin install budget-statusline@claude-toolbox
 ```
 
-then follow the plugin's own README (for `budget-statusline`, run
-`/budget-statusline-install`). Updates: `/plugin update budget-statusline`, or
-turn on auto-update for this marketplace in `/plugin`.
+then follow each plugin's own README (`/pins:pins-install` for `pins`,
+`/budget-statusline-install` for `budget-statusline`). Updates:
+`/plugin update <plugin>`, or turn on auto-update for this marketplace in `/plugin`.
+
+This marketplace was called `claude-statuslines` until September 2026. If you added it
+under that name, remove it and add it again as `MasonFlint44/claude-toolbox`; GitHub
+redirects the old URL but the marketplace name inside Claude Code does not change on its own.
 
 Each plugin lives in its own repository with its own tests, changelog and
 releases; this repository only lists them.
