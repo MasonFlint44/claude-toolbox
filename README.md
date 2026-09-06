@@ -17,7 +17,7 @@ planned as a second plugin.
 ```
 
 then follow the plugin's own README (for `budget-statusline`, run
-`/install-statusline`). Updates: `/plugin update budget-statusline`, or
+`/budget-statusline-install`). Updates: `/plugin update budget-statusline`, or
 turn on auto-update for this marketplace in `/plugin`.
 
 Each plugin lives in its own repository with its own tests, changelog and
