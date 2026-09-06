@@ -27,4 +27,6 @@ under that name, remove it and add it again as `MasonFlint44/claude-toolbox`; Gi
 redirects the old URL but the marketplace name inside Claude Code does not change on its own.
 
 Each plugin lives in its own repository with its own tests, changelog and
-releases; this repository only lists them.
+releases; this repository only lists them. Entries carry no `version`: Claude
+Code reads it from each plugin's own `plugin.json`, so a plugin release needs
+no change here (the docs warn against setting it in both places).
