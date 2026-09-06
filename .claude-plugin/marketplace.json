@@ -1,0 +1,20 @@
+{
+  "name": "claude-statuslines",
+  "owner": { "name": "Mason Flint" },
+  "metadata": {
+    "description": "Statuslines for Claude Code: budget bars for organization plans with spend billing, and more to come.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "budget-statusline",
+      "source": { "source": "github", "repo": "MasonFlint44/claude-budget-statusline" },
+      "description": "Daily and monthly spend budget bars from the same numbers the /usage page shows, with a configurable work week and holiday calendar. For organization and Team plans with spend billing.",
+      "version": "2.2.0",
+      "author": { "name": "Mason Flint" },
+      "homepage": "https://github.com/MasonFlint44/claude-budget-statusline",
+      "license": "MIT",
+      "keywords": ["statusline", "budget", "usage", "spend"]
+    }
+  ]
+}
