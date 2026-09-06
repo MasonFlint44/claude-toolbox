@@ -10,7 +10,7 @@
       "name": "budget-statusline",
       "source": { "source": "github", "repo": "MasonFlint44/claude-budget-statusline" },
       "description": "Daily and monthly spend budget bars from the same numbers the /usage page shows, with a configurable work week and holiday calendar. For organization and Team plans with spend billing.",
-      "version": "2.2.4",
+      "version": "2.2.5",
       "author": { "name": "Mason Flint" },
       "homepage": "https://github.com/MasonFlint44/claude-budget-statusline",
       "license": "MIT",
