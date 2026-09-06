@@ -35,7 +35,7 @@
         "repo": "MasonFlint44/claude-pins"
       },
       "description": "Pin Claude Code sessions and resume them by name: a `pin` terminal picker (fzf) plus /pins:pin and /pins:unpin. Sessions found without remembering a UUID or the directory they were launched from.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Mason Flint"
       },
