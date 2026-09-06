@@ -18,13 +18,9 @@ planned as a third plugin.
 /plugin install budget-statusline@claude-toolbox
 ```
 
-then follow each plugin's own README (`/pins:pins-install` for `pins`,
-`/budget-statusline:budget-statusline-install` for `budget-statusline`). Updates:
+then follow each plugin's own README (`/pins:install` for `pins`,
+`/budget-statusline:install` for `budget-statusline`). Updates:
 `/plugin update <plugin>`, or turn on auto-update for this marketplace in `/plugin`.
-
-This marketplace was called `claude-statuslines` until September 2026. If you added it
-under that name, remove it and add it again as `MasonFlint44/claude-toolbox`; GitHub
-redirects the old URL but the marketplace name inside Claude Code does not change on its own.
 
 Each plugin lives in its own repository with its own tests, changelog and
 releases; this repository only lists them. Entries carry no `version`: Claude
