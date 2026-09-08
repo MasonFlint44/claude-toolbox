@@ -5,7 +5,7 @@ A Claude Code plugin marketplace for Mason Flint's plugins. Two so far:
 | Plugin | What | Repo |
 |---|---|---|
 | `pins` | pin sessions and resume them by name: a `pin` terminal picker (fzf) plus `/pins:pin` and `/pins:unpin` | [claude-pins](https://github.com/MasonFlint44/claude-pins) |
-| `budget-statusline` | for organization and Team plans with spend billing: daily and monthly budget bars from the `/usage` numbers, plus a work-week and holiday calendar | [claude-budget-statusline](https://github.com/MasonFlint44/claude-budget-statusline) |
+| `spend-statusline` | for organization and Team plans with spend billing: daily and monthly spend bars from the `/usage` numbers, plus a work-week and holiday calendar | [claude-spend-statusline](https://github.com/MasonFlint44/claude-spend-statusline) |
 
 A plan-user statusline (5-hour and weekly windows rather than dollars) is
 planned as a third plugin.
@@ -15,11 +15,11 @@ planned as a third plugin.
 ```
 /plugin marketplace add MasonFlint44/claude-toolbox
 /plugin install pins@claude-toolbox
-/plugin install budget-statusline@claude-toolbox
+/plugin install spend-statusline@claude-toolbox
 ```
 
 then follow each plugin's own README (`/pins:install` for `pins`,
-`/budget-statusline:install` for `budget-statusline`). Updates:
+`/spend-statusline:install` for `spend-statusline`). Updates:
 `/plugin update <plugin>`, or turn on auto-update for this marketplace in `/plugin`.
 
 Each plugin lives in its own repository with its own tests, changelog and

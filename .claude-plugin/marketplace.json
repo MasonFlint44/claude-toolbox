@@ -4,27 +4,27 @@
     "name": "Mason Flint"
   },
   "metadata": {
-    "description": "Claude Code plugins by Mason Flint: session pins, a spend-budget statusline, and more to come.",
+    "description": "Claude Code plugins by Mason Flint: session pins, a spend statusline, and more to come.",
     "version": "2.0.0"
   },
   "plugins": [
     {
-      "name": "budget-statusline",
+      "name": "spend-statusline",
       "source": {
         "source": "github",
-        "repo": "MasonFlint44/claude-budget-statusline"
+        "repo": "MasonFlint44/claude-spend-statusline"
       },
-      "description": "Daily and monthly spend budget bars from the same numbers the /usage page shows, with a configurable work week and holiday calendar. For organization and Team plans with spend billing.",
+      "description": "Daily and monthly spend bars from the same numbers the /usage page shows, with a configurable work week and holiday calendar. For organization and Team plans with spend billing.",
       "author": {
         "name": "Mason Flint"
       },
-      "homepage": "https://github.com/MasonFlint44/claude-budget-statusline",
+      "homepage": "https://github.com/MasonFlint44/claude-spend-statusline",
       "license": "MIT",
       "keywords": [
         "statusline",
-        "budget",
+        "spend",
         "usage",
-        "spend"
+        "cost"
       ]
     },
     {
