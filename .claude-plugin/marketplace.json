@@ -4,8 +4,8 @@
     "name": "Mason Flint"
   },
   "metadata": {
-    "description": "Claude Code plugins by Mason Flint: session pins, a spend statusline, and more to come.",
-    "version": "2.0.0"
+    "description": "Claude Code plugins by Mason Flint: session pins, spend and usage statuslines, and more to come.",
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -25,6 +25,25 @@
         "spend",
         "usage",
         "cost"
+      ]
+    },
+    {
+      "name": "usage-statusline",
+      "source": {
+        "source": "github",
+        "repo": "MasonFlint44/claude-usage-statusline"
+      },
+      "description": "5-hour, 7-day and Fable usage bars with reset countdowns, plus an overage credits line and a git location row. For Pro and Max plans. Interim release: Linux, WSL and Git Bash only.",
+      "author": {
+        "name": "Mason Flint"
+      },
+      "homepage": "https://github.com/MasonFlint44/claude-usage-statusline",
+      "license": "MIT",
+      "keywords": [
+        "statusline",
+        "usage",
+        "limits",
+        "plan"
       ]
     },
     {
