@@ -4,10 +4,30 @@
     "name": "Mason Flint"
   },
   "metadata": {
-    "description": "Claude Code plugins by Mason Flint: session pins, spend and usage statuslines, and more to come.",
-    "version": "2.1.0"
+    "description": "Claude Code plugins by Mason Flint: session pins and statuslines (dashline for every plan, plus spend and usage), and more to come.",
+    "version": "2.2.0"
   },
   "plugins": [
+    {
+      "name": "dashline",
+      "source": {
+        "source": "github",
+        "repo": "MasonFlint44/claude-dashline"
+      },
+      "description": "One statusline for every plan (Free, Pro, Max, Ultra, Team, Enterprise, API key): model, effort, cost, prompt-cache state, context and plan-limit bars, and a git row. Python 3.9+; Linux and macOS.",
+      "author": {
+        "name": "Mason Flint"
+      },
+      "homepage": "https://github.com/MasonFlint44/claude-dashline",
+      "license": "MIT",
+      "keywords": [
+        "statusline",
+        "usage",
+        "rate-limits",
+        "context",
+        "git"
+      ]
+    },
     {
       "name": "spend-statusline",
       "source": {
