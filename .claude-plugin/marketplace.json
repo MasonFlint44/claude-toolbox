@@ -5,14 +5,16 @@
   },
   "metadata": {
     "description": "Claude Code plugins by Mason Flint: session pins and statuslines (dashline for every plan, plus spend and usage), and more to come.",
-    "version": "2.2.0"
+    "version": "2.3.0"
   },
   "plugins": [
     {
       "name": "dashline",
       "source": {
         "source": "github",
-        "repo": "MasonFlint44/claude-dashline"
+        "repo": "MasonFlint44/claude-dashline",
+        "ref": "v0.1.9",
+        "sha": "ee981b20599aa14101d31228cf6e570807fff9c6"
       },
       "description": "One statusline for every plan (Free, Pro, Max, Ultra, Team, Enterprise, API key): model, effort, cost, prompt-cache state, context and plan-limit bars, and a git row. Python 3.9+; Linux and macOS.",
       "author": {
@@ -32,7 +34,9 @@
       "name": "spend-statusline",
       "source": {
         "source": "github",
-        "repo": "MasonFlint44/claude-spend-statusline"
+        "repo": "MasonFlint44/claude-spend-statusline",
+        "ref": "v2.8.0",
+        "sha": "365dbf7897e0f2a140087356765f03f8216b7001"
       },
       "description": "Daily and monthly spend bars from the same numbers the /usage page shows, with a configurable work week and holiday calendar. For organization and Team plans with spend billing.",
       "author": {
@@ -51,7 +55,9 @@
       "name": "usage-statusline",
       "source": {
         "source": "github",
-        "repo": "MasonFlint44/claude-usage-statusline"
+        "repo": "MasonFlint44/claude-usage-statusline",
+        "ref": "v0.2.0",
+        "sha": "5a9046a99c05274c851b563b1ed3b1bc2a06d192"
       },
       "description": "5-hour, 7-day and Fable usage bars with reset countdowns, plus an overage credits line and a git location row. For Pro and Max plans. Interim release: Linux, WSL and Git Bash only.",
       "author": {
@@ -70,7 +76,9 @@
       "name": "pins",
       "source": {
         "source": "github",
-        "repo": "MasonFlint44/claude-pins"
+        "repo": "MasonFlint44/claude-pins",
+        "ref": "v0.7.1",
+        "sha": "dc49db7e3a14e02340d1623039f909cfbf7c7ff3"
       },
       "description": "Pin Claude Code sessions and resume them by name: a `pins` terminal picker (fzf) plus /pins:pin and /pins:unpin. Sessions found without remembering a UUID or the directory they were launched from.",
       "author": {
