@@ -13,8 +13,8 @@
       "source": {
         "source": "github",
         "repo": "MasonFlint44/claude-dashline",
-        "ref": "v0.1.9",
-        "sha": "ee981b20599aa14101d31228cf6e570807fff9c6"
+        "ref": "v0.1.10",
+        "sha": "ebfdff2a101dfd58fed37dc01cc4a75381d3a8ad"
       },
       "description": "One statusline for every plan (Free, Pro, Max, Ultra, Team, Enterprise, API key): model, effort, cost, prompt-cache state, context and plan-limit bars, and a git row. Python 3.9+; Linux and macOS.",
       "author": {
